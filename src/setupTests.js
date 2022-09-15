@@ -8,7 +8,7 @@ import './__mocks__/i18next'
 import './__mocks__/matchMediaMock'
 import './__mocks__/react-i18next'
 
-// speeds up *ByRole queries a bit, but will need to specify { hidden: false } in some cases
+// speeds up *ByRole queries a bit, but will need to specify { hidden: false } in some searious
 configure({ defaultHidden: true })
 
 jest.setTimeout(10000)
